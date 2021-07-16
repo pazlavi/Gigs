@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/event_card_LAY_card"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="15dp"
+    android:padding="8dp"
+    android:elevation="10dp"
+    android:layout_marginTop="2.5dp"
+    android:layout_marginBottom="2.5dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginStart="15dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="5dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/event_card_LBL_djName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/djNameWithValue"
+            android:textSize="16sp"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/event_card_LBL_prName"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.5dp"
+            android:text="@string/prNameWithValue"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/event_card_LBL_locationName"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.5dp"
+            android:text="@string/locationNameWithValue"
+            android:textSize="16sp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/event_card_LBL_eventAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.5dp"
+            android:text="@string/addressWithValue"
+            android:textSize="16sp" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/event_card_LBL_dateTime"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.5dp"
+            android:text="@string/dateTimeWithValue"
+            android:textSize="16sp" />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/event_card_LBL_genres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxHeight="150dp"
+            android:scrollbars="vertical"
+
+            android:text="@string/genresWithValue"
+            android:textSize="16sp"
+            />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

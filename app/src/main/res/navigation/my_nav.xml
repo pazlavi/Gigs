@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/eventInfoFragment">
+
+    <fragment
+        android:id="@+id/eventInfoFragment"
+        android:name="com.paz.gigs.fragments.EventInfoFragment"
+        android:label="eventInfoFragment" />
+    <fragment
+        android:id="@+id/YouTubeSearchFragment"
+        android:name="com.paz.gigs.fragments.YouTubeSearchFragment"
+        android:label="MyFragment2"
+        tools:layout="@layout/fragment_search_song">
+
+    </fragment>
+    <fragment
+        android:id="@+id/eventSongListFragment"
+        android:name="com.paz.gigs.fragments.EventSongListFragment"
+        android:label="eventSongListFragment"
+        tools:layout="@layout/fragment_event_song_list" />
+
+</navigation>

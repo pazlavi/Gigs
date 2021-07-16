@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/eventInfoFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_info"
+        android:title="@string/eventInfo"/>
+    <item
+        android:id="@+id/YouTubeSearchFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_search"
+        android:title="@string/songSearch"/>
+    <item
+        android:id="@+id/eventSongListFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_music"
+        android:title="@string/eventPlaylist"/>
+
+</menu>

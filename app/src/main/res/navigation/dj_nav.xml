@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dj_nav"
+    app:startDestination="@id/eventsMapsFragment">
+
+    <fragment
+        android:id="@+id/djProfileFragment"
+        android:name="com.paz.gigs.fragments.UserProfileFragment"
+        android:label="DjProfileFragment"
+        tools:layout="@layout/fragment_user_profile"/>
+    <fragment
+        android:id="@+id/eventsMapsFragment"
+        android:name="com.paz.gigs.fragments.EventsMapsFragment"
+        android:label="fragment_events_maps"
+        tools:layout="@layout/fragment_events_maps">
+        <action
+            android:id="@+id/nav_to_new_dj_event"
+            app:destination="@id/djNewEventFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_enter_anim"
+            app:popExitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/user_select_genres_nav"
+            app:destination="@id/selectGenresFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.paz.gigs.fragments.StatsFragment"
+        android:label="fragment_stats"
+        tools:layout="@layout/fragment_stats" />
+    <fragment
+        android:id="@+id/djNewEventFragment"
+        android:name="com.paz.gigs.fragments.DjNewEventFragment"
+        android:label="fragment_dj_new_event"
+        tools:layout="@layout/fragment_dj_new_event" >
+        <action
+            android:id="@+id/action_djNewEventFragment_to_selectGenresFragment"
+            app:destination="@id/selectGenresFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_exit_anim"
+            app:popExitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectGenresFragment"
+        android:name="com.paz.gigs.fragments.SelectGenresFragment"
+        android:label="fragment_select_genres"
+        tools:layout="@layout/fragment_select_genres" />
+    <fragment
+        android:id="@+id/savedEventsFragment"
+        android:name="com.paz.gigs.fragments.SavedEventsFragment"
+        android:label="fragment_saved_events"
+        tools:layout="@layout/fragment_saved_events" />
+</navigation>

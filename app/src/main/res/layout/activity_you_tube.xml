@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/outputText"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.YouTubeActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/youtube_BAR_player"
+        app:title="@string/player"
+        app:navigationIcon="@drawable/ic_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:navigationIconTint="@color/white"
+        app:titleTextColor="@color/white"
+        />
+
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:layout_below="@id/youtube_BAR_player"
+        android:id="@+id/youtube_PLY_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/youtube_PLY_player"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/youtube_IMG_image"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/youtube_LBL_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:maxEms="10"
+            android:singleLine="false"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/youtube_IMG_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/youtube_IMG_image"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center|center_horizontal"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/youtube_IMG_image"
+            app:layout_constraintTop_toBottomOf="@+id/youtube_LBL_title">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/youtube_BTN_like"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"
+                android:text="@string/like"
+                app:cornerRadius="15dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/youtube_BTN_unlike"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"
+                android:maxLines="1"
+                android:text="@string/unlike"
+                app:cornerRadius="15dp" />
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</RelativeLayout>

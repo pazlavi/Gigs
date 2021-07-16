@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Gigs</string>
+    <string name="text_label_2">page2</string>
+    <string name="songSearch">Song Search</string>
+    <string name="text_label_1">page1</string>
+    <string name="text_label_3">page3</string>
+    <string name="text_label_4">page4</string>
+    <string name="searchSongs">Search</string>
+    <string name="label">search</string>
+    <string name="searchSongsTitle">Search for songs</string>
+    <string name="search">search</string>
+    <string name="showResult">Result for: %1$s</string>
+    <string name="selectedTime">%1$s:%2$s</string>
+    <string name="noResult">No results yet</string>
+    <string name="totalLikes">%1$d 👍</string>
+    <string name="totalUnlikes">%1$d 👎</string>
+    <string name="like">Like  👍</string>
+    <string name="unlike">Unlike 👎</string>
+    <string name="eventInfo">Event Info</string>
+    <string name="eventPlaylist">Event Playlist</string>
+    <string name="registerTitle">Sign Up</string>
+    <string name="registerFillForm">Please fill the form</string>
+    <string name="name">Name<font color='#FF0000'>*</font></string>
+    <string name="phone">Phone<font color='#FF0000'>*</font></string>
+    <string name="email">Email<font color='#FF0000'>*</font></string>
+    <string name="dj">DJ</string>
+    <string name="clubber">Clubber</string>
+    <string name="pr">PR</string>
+    <string name="userType">I am: </string>
+    <string name="stageName">Stage Name<font color='#FF0000'>*</font></string>
+    <string name="genres">My genres:</string>
+    <string name="selectInterface">Select Default Interface</string>
+    <string name="select">select</string>
+    <string name="profile">Profile</string>
+    <string name="statistics">Statistics</string>
+    <string name="event">Events</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="myEvents">My Events</string>
+    <string name="newEvent">New Event</string>
+    <string name="showInList">Show Us List</string>
+    <string name="showInMap">Show In Map</string>
+    <string name="createNewEvent">Create New Event</string>
+    <string name="selectGenres">Select Genres</string>
+    <string name="selectGenresCounter">Select Genres (%1$d selected)</string>
+    <string name="selectAll">Select All</string>
+    <string name="djStageName">Dj Stage Name</string>
+    <string name="djName">Dj Name</string>
+    <string name="eventAddress">Event Address</string>
+    <string name="locationName">Location Name</string>
+    <string name="selectEventDate">Select Date</string>
+    <string name="selectTime">Select Time</string>
+    <string name="saveEvent">Save Event</string>
+    <string name="privateEvent">Private Event</string>
+    <string name="publicEvent">Public Event</string>
+    <string name="prName">PR name</string>
+    <string name="djNameWithValue">Dj: %1$s</string>
+    <string name="nameWithValue">Name: %1$s</string>
+    <string name="stageNameWithValue">Stage Name: %1$s</string>
+    <string name="phoneWithValue">Phone: %1$s</string>
+    <string name="emailWithValue">Email: %1$s</string>
+    <string name="userTypesWithValue">My Types: %1$s</string>
+    <string name="prNameWithValue">Pr: %1$s</string>
+    <string name="locationNameWithValue">Location: %1$s</string>
+    <string name="addressWithValue">Address: %1$s</string>
+    <string name="dateTimeWithValue">When: %1$s</string>
+    <string name="genresWithValue">Genres: %1$s</string>
+    <string name="searchOptions">Search Options</string>
+
+
+    <!-- location library -->
+    <string name="locus_rationale_title">Rationale Title</string>
+    <string name="locus_rationale_message">This is a rationale message.</string>
+    <string name="locus_permission_blocked_title">Permission Blocked Title</string>
+    <string name="locus_permission_blocked_message">This is a permission blocked message.</string>
+    <string name="locus_location_resolution_title">Permission Resolution Title</string>
+    <string name="locus_location_resolution_message">This is a permission resolution message.</string>
+    <string name="logout">logout</string>
+    <string name="markAsPlayed">Mark As Played</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">330601305308449</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb330601305308449</string>
+    <string name="addToFavorite">save event</string>
+    <string name="shareEvent">Share Event</string>
+    <string name="direction">Navigation Direction</string>
+    <string name="Navigation">Navigate</string>
+    <string name="defaultInterface">Default interface:</string>
+    <string name="filtersLBL">Please select default filters</string>
+    <string name="dateRange">Date Range: %1$s</string>
+    <string name="searchRadius">Search Radius: %1$dKM</string>
+    <string name="save">save</string>
+    <string name="selectDateRange">Select Date Range</string>
+    <string name="linkGeneratorFailed">Faile to generate sharing link</string>
+    <string name="close">Close</string>
+    <string name="savedEvents">Saved Events</string>
+    <string name="topSongs">Top Songs</string>
+    <string name="placeNumber">Place #%1$d</string>
+    <string name="player">Song Player</string>
+    <string name="myProfile">My Profile</string>
+</resources>
